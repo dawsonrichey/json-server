@@ -1,73 +1,14 @@
-[
-    {
-      "id": 1,
-      "first_name": "Ranee",
-      "last_name": "Griswood",
-      "email": "rgriswood0@csmonitor.com",
-      "age": 49
-    },
-    {
-      "id": 2,
-      "first_name": "Rosalinde",
-      "last_name": "Bewley",
-      "email": "rbewley1@uiuc.edu",
-      "age": 3
-    },
-    {
-      "id": 3,
-      "first_name": "Bearnard",
-      "last_name": "Wharby",
-      "email": "bwharby2@adobe.com",
-      "age": 34
-    },
-    {
-      "id": 4,
-      "first_name": "Alma",
-      "last_name": "Portwaine",
-      "email": "aportwaine3@usatoday.com",
-      "age": 90
-    },
-    {
-      "id": 5,
-      "first_name": "Josephina",
-      "last_name": "Bernet",
-      "email": "jbernet4@imageshack.us",
-      "age": 95
-    },
-    {
-      "id": 6,
-      "first_name": "Isabelita",
-      "last_name": "Rackley",
-      "email": "irackley5@telegraph.co.uk",
-      "age": 71
-    },
-    {
-      "id": 7,
-      "first_name": "Branden",
-      "last_name": "Tattersfield",
-      "email": "btattersfield6@sitemeter.com",
-      "age": 37
-    },
-    {
-      "id": 8,
-      "first_name": "Margareta",
-      "last_name": "Burtwell",
-      "email": "mburtwell7@chronoengine.com",
-      "age": 83
-    },
-    {
-      "id": 9,
-      "first_name": "Hanny",
-      "last_name": "Pigott",
-      "email": "hpigott8@google.com.hk",
-      "age": 40
-    },
-    {
-      "id": 10,
-      "first_name": "Carly",
-      "last_name": "Zanuciolii",
-      "email": "czanuciolii9@shutterfly.com",
-      "age": 84
+{
+    "posts": [
+        { "id": 1, "title": "Post 1" },
+        { "id": 2, "title": "Post 2" },
+        { "id": 3, "title": "Post 3" }
+    ],
+    "comments": [
+        { "id": 1, "body": "some comment", "postId": 1 },
+        { "id": 2, "body": "some comment", "postId": 1 }
+    ],
+    "profile": {
+        "name": "typicode"
     }
-  ]
-  
+}
